@@ -108,17 +108,6 @@ def taskexe():
             Speak("What about you ?")
             Speak("How's your day ?")   
 
-        elif 'who is your developer' in query:
-            Speak("My development is done by two students")
-            Speak("Sankalp patil and pratik gaikwad from ty cse")
-            Speak("They have develped under the guidance of faculty Mrunal Deshpande")
-
-        elif 'tell me about yourself' in query:
-            Speak("My name is Jarvis and I was developed for the python project")
-            Speak("I am using modules like ---------")
-            Speak("I can execute multiple taks like -----------")
-            Speak("I am here to help you in your work so that you can work more efficiently")
-
         elif 'youtube search' in query:
             Speak("Searching on youtube this is what I found in youtube search")
             query = query.replace("jarvis","")
